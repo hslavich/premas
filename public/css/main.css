@@ -195,3 +195,20 @@ ul.navbar-nav .nav-item:after {
   }
 }
 
+.extrac-header {
+  background-color: #CCCC17;
+  border-bottom: 0;
+}
+
+
+.card-extrac-ml {
+  background-color: black;
+}
+
+.card, .card-header {
+  border-radius: 1.25rem!important;
+}
+
+.card {
+  height: 210px;
+}
