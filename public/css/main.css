@@ -246,3 +246,39 @@ ul.navbar-nav .nav-item:after {
 .card-extrac-info {
   border: 0;
 }
+
+.card-extrac-ml a {
+  font-weight: bold;
+}
+
+.card-extrac-ml img {
+  max-width: 120px;
+}
+
+@media (max-width: 765px) {
+  .card-extrac-info, .card-extrac-info .card-header {
+    border-top-right-radius: 0!important;
+    border-top-left-radius: 0!important;
+  }
+
+  .card-extrac-img, .card-extrac-info, .card-extrac-info .card-header {
+    border-bottom-right-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+  }
+
+  .card-extrac-info {
+    padding-bottom: 5px;
+  }
+
+  .card-extrac-ml {
+    height: auto;
+    border: 0;
+  }
+
+  .card-extrac-ml .btn {
+    border-top-right-radius: 0!important;
+    border-top-left-radius: 0!important;
+    border-bottom-right-radius: 1.25rem!important;
+    border-bottom-left-radius: 1.25rem!important;
+  }
+}
