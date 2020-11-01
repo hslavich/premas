@@ -195,11 +195,37 @@ ul.navbar-nav .nav-item:after {
   }
 }
 
-.extrac-header {
+/* .extractores .card .card-header {
   background-color: #CCCC17;
-  border-bottom: 0;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
+.extractores .card .card-body p {
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+.extractores .card .card-body {
+  border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.extractores .card {
+  border: 0;
+} */
+.extractores .card .card-header {
+  background-color: #CCCC17;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.extractores .card .card-body {
+  padding: 0;
+  padding-top: 4 px;
+}
 
 .card-extrac-ml {
   background-color: black;
@@ -211,4 +237,12 @@ ul.navbar-nav .nav-item:after {
 
 .card {
   height: 210px;
+}
+
+.card-extrac-info .card-body img {
+  height: 100%;
+}
+
+.card-extrac-info {
+  border: 0;
 }
