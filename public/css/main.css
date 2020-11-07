@@ -261,4 +261,12 @@ ul.navbar-nav .nav-item:after {
     border-bottom-right-radius: 1.25rem!important;
     border-bottom-left-radius: 1.25rem!important;
   }
+
+  .footer img {
+    width: 75%;
+  }
+
+  .redes img {
+    height: 40px;
+  }
 }
