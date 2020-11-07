@@ -26,7 +26,6 @@
 .jumbotron .card h1, h2 {
   line-height: 0.70;
   color: #CCCC17;
-  font-weight: bolder;
 }
 
 .jumbotron .brand h1 {
@@ -45,7 +44,9 @@ nav.navbar {
 }
 
 body {
-  font-family: 'Oswald', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Bebas Neue', cursive;
+
 }
 
 .jarallax {
@@ -247,9 +248,6 @@ ul.navbar-nav .nav-item:after {
   border: 0;
 }
 
-.card-extrac-ml a {
-  font-weight: bold;
-}
 
 .card-extrac-ml img {
   max-width: 120px;
