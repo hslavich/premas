@@ -3,6 +3,10 @@
   margin: -8px;
 }
 
+.navbar {
+  font-size: 1.2rem;
+}
+
 .navbar-telefono {
   background-color: black;
   color: white!important;
